@@ -1,0 +1,53 @@
+$black: #222222;
+
+html {
+    font-family: 'Modern Era TRIAL', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    margin: 1rem;
+}
+
+h1, .h1 {
+    font-weight: 800;
+}
+
+p, .p {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    color: $black;
+}
+
+nav {
+    margin: 2rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        font-weight: 400;
+        text-transform: lowercase;
+    }
+    a {
+        color: $black;
+        font-weight: 800;
+    }
+}
+
+.post-grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.post-item {
+    flex: 1 0 calc(45%);
+    margin: 1rem;
+    img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+}
